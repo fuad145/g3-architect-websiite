@@ -15,9 +15,37 @@
 
 .navbar {
   display: flex;
+  justify-content: space-between;
 }
 .nav-links {
   display: flex;
 }
 .nav-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.bg-light {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+/* Dark 2 */
+.text-gray {
+  color: #424242;
+}
+
+/* Dark 3 */
+
+.text-light-gray {
+  color: #727272;
+}
+.navbar,
+.banner {
+}
+.brand {
+  font-weight: 700;
+  font-size: 3rem;
 }
